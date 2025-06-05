@@ -276,7 +276,7 @@ npx json -I -f package.json -e 'this.scripts={
     "build:css": "npx @tailwindcss/cli -i ./app/static/css/input.css -o ./app/static/css/main.css --minify",
     "watch:css": "npx @tailwindcss/cli -i ./app/static/css/input.css -o ./app/static/css/main.css --watch",
     "watch:ts": "tsc --watch",
-    "dev": "concurrently \\"npm run watch:css\\" \\"npm run watch:ts\\""
+    "dev": "concurrently \"npm run watch:css\" \"npm run watch:ts\""
 }'
 
 # === GIT SETUP ===
