@@ -1,3 +1,4 @@
+
 # 🧪 Flask + Tailwind + TypeScript Full-Stack Starter
 
 This is a full-featured Flask web application starter template that includes:
@@ -20,6 +21,20 @@ This is a full-featured Flask web application starter template that includes:
 git clone https://github.com/ByteDevMaven/Flask-Template.git
 cd Flask-Template
 ```
+
+---
+
+## ⚡ Run Without Downloading
+
+If you just want to bootstrap the project **immediately without cloning**, run:
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/ByteDevMaven/Flask-Template/main/init.sh)
+```
+
+This will execute the full project setup script directly from the GitHub repository.
+
+> ⚠️ Make sure you trust the script before executing remote code like this.
 
 ---
 
